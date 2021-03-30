@@ -11,6 +11,11 @@ export const Container = styled.div`
         padding: 1.5rem 2rem;
         border-radius: 0.25rem;
         color: var(--text-title);
+        transition: transform 0.4s;
+
+        &:hover {
+            transform: translateY(-10px);
+        }
 
         header {
             display: flex;
